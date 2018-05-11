@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sina_ver01</string>
+    <string name="hint_name">이름을 입력하세요</string>
+    <string name="hint_Email">Email ID를 입력하세요</string>
+    <string name="hint_password">Password를 입력하세요</string>
+    <string name="hint_phone">휴대폰번호를 입력하세요</string>
+    <string name="male">남자</string>
+    <string name="female">여자</string>
+    <string name="open">drawer open</string>
+    <string name="close">drawer close</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+</resources>
