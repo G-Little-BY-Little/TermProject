@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgflower"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/tulip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="모아보기"
+            android:textSize="30dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="73dp"
+        android:layout_gravity="center"
+        android:background="#ff4d4d"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/feeling1"
+            android:layout_width="100dp"
+            android:layout_height="73dp"
+            android:src="@drawable/happy2"
+            android:background="#ffffff"/>
+
+
+        <ImageButton
+            android:id="@+id/feeling2"
+            android:layout_width="100dp"
+            android:layout_height="73dp"
+            android:src="@drawable/sad2"
+            android:background="#ffffff"/>
+
+        <ImageButton
+            android:id="@+id/feeling3"
+            android:layout_width="100dp"
+            android:layout_height="73dp"
+            android:src="@drawable/angry2"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/StartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="날짜를 선택하시오"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="~"/>
+
+        <TextView
+            android:id="@+id/EndDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="날짜를 선택하시오"
+            android:textSize="30dp"/>
+
+        <Button
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
