@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_write"
+            android:icon="@drawable/pencil"
+            android:title="Write" />
+        <item
+            android:id="@+id/nav_show"
+            android:icon="@drawable/show"
+            android:title="Show" />
+        <item
+            android:id="@+id/nav_static"
+            android:icon="@drawable/staticss"
+            android:title="Static" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@drawable/setting"
+                android:title="Setting" />
+        </menu>
+    </item>
+
+</menu>
