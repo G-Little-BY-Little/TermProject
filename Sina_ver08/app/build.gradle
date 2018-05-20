@@ -5,6 +5,7 @@ android {
     defaultConfig {
         applicationId "org.androidtown.sina_ver01"
         minSdkVersion 15
+        multiDexEnabled true
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
