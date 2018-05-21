@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:src="@drawable/image1"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="20dp"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:background="@color/gray"
+        >
+
+        <ImageButton
+            android:id="@+id/emoHappy"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/happy"
+            android:background="@color/gray"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <ImageButton
+            android:id="@+id/emoAngry"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/angry"
+            android:background="@color/gray"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <ImageButton
+            android:id="@+id/emoSad"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/sad"
+            android:background="@color/gray"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/todayText"
+        android:layout_marginLeft= "25dp"
+        android:layout_marginRight= "25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_textfrom"
+        android:hint="오늘의 기분을 20자이내로 작성해주세요!"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray2"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:background="#ea4c88"
+
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnOk"
+            android:background="#ea4c88"
+            android:layout_marginLeft = "15dp"
+            android:text="뒤로가기"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
