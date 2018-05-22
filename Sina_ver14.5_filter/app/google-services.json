@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "300204036921",
+    "firebase_url": "https://sinabro-1526195392107.firebaseio.com",
+    "project_id": "sinabro-1526195392107",
+    "storage_bucket": "sinabro-1526195392107.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300204036921:android:c05ed1f4807fb60a",
+        "android_client_info": {
+          "package_name": "org.androidtown.sina_ver01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300204036921-ebpb4opch8jdjn1l3g0p31hdq176g1gd.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "300204036921-fse1iqbb2v9kkq54smrii0johjg2psu9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.androidtown.sina_ver01",
+            "certificate_hash": "9fd48517daca46b067c1798edb4d51e31a457ac9"
+          }
+        },
+        {
+          "client_id": "300204036921-a9lfoq88eq514mcrijbvssdtprhkhmo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYHZkaKnPdbrjOTnYEenao512Bn0Hdo34"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300204036921-ebpb4opch8jdjn1l3g0p31hdq176g1gd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
