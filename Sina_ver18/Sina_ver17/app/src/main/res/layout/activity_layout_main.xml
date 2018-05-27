@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/bgflower"
+    android:orientation="vertical">
+
+    <include layout="@layout/tool_bar_layout" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/layoutlogo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="37dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/emptyBtn"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitXY"
+                android:src="@drawable/empty" />
+
+            <ImageButton
+                android:id="@+id/letterBtn"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_marginBottom="20dp"
+                android:layout_toRightOf="@+id/emptyBtn"
+                android:background="#FFFFFF"
+                android:scaleType="fitXY"
+                android:src="@drawable/letter" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/drawBtn"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_marginRight="20dp"
+                android:background="#FFFFFF"
+                android:scaleType="fitXY"
+                android:src="@drawable/drawing" />
+
+            <ImageButton
+                android:id="@+id/pictureBtn"
+                android:layout_width="140dp"
+                android:layout_height="160dp"
+                android:layout_toRightOf="@+id/drawBtn"
+                android:background="#FFFFFF"
+                android:scaleType="fitXY"
+                android:src="@drawable/picture" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
