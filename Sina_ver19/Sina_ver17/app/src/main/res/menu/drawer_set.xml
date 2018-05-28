@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_item1"
+            android:icon="@drawable/flower3"
+            android:title="Diary"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_item2"
+            android:icon="@drawable/flower3"
+            android:title="Filter"/>
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_item3"
+            android:icon="@drawable/flower3"
+            android:title="Chart" />
+    </group>
+    <!--
+     android:checked="true" //체크 표시
+    <item android:title="큰제목">
+        <menu>
+            <itemgl
+                android:id="@+id/nav_item3"
+                android:icon="@mipmap/ic_launcher"
+                android:title="부제목"/>
+            <item
+                android:id="@+id/nav_item4"
+                android:icon="@mipmap/ic_launcher"
+                android:title="부제목"/>
+        </menu>
+    </item>-->
+</menu>
