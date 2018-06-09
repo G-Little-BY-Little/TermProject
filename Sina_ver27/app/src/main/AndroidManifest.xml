@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.androidtown.sina_ver01">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon2"
+        android:label="시나브로"
+        android:roundIcon="@drawable/icon2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC6qDiju1P7INvZ23fw5uCBS3LUWIYTtLw"/>
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".PictureLayActivity" />
+        <activity
+            android:name=".DialogActivity"
+            android:theme="@style/DialogTheme" />
+        <activity android:name=".DrawLayout" />
+        <activity android:name=".LayoutMain" />
+        <activity android:name=".SecondMain" />
+        <activity android:name=".SelectEmotionActivity" />
+        <activity android:name=".SetActivity" />
+        <activity android:name=".StaticsActivity" />
+        <activity
+            android:name=".DiaryActivity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".CalendarActivity"
+            android:label="@string/title_activity_calendar"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".LetterActivity" />
+        <activity android:name=".PasswordActivity" />
+        <activity android:name=".SortingActivity" />
+        <activity
+            android:name=".LoginAcitivity"
+            android:theme="@style/DialogTheme" />
+        <activity android:name=".EmptyLayout" />
+        <activity android:name=".ShowActivity" />
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true"
+            android:exported="true"></service>
+    </application>
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+</manifest>
