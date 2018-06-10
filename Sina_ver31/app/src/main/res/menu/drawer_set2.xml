@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_write2"
+            android:icon="@drawable/pencil"
+            android:title="Write" />
+        <item
+            android:id="@+id/nav_show2"
+            android:icon="@drawable/show"
+            android:title="Show" />
+
+        <item
+            android:id="@+id/nav_filter2"
+            android:title="Filter"
+            android:icon="@drawable/filter"
+            />
+
+        <item
+            android:id="@+id/nav_static2"
+            android:icon="@drawable/statics"
+            android:title="Staticss" />
+    </group>
+</menu>
