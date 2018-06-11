@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_write"
+            android:icon="@drawable/pencil"
+            android:title="Write"
+            android:fontFamily="@font/bmjua"
+            />
+        <item
+            android:id="@+id/nav_show"
+            android:icon="@drawable/show"
+            android:fontFamily="@font/bmjua"
+            android:title="Show" />
+
+        <item
+            android:id="@+id/nav_filter"
+            android:title="Filter"
+            android:icon="@drawable/filter"
+            android:fontFamily="@font/bmjua"
+            />
+
+        <item
+            android:id="@+id/nav_static"
+            android:icon="@drawable/staticss"
+            android:fontFamily="@font/bmjua"
+            android:title="Statics" />
+    </group>
+
+    <item android:title="Setting">
+        <menu>
+            <item
+                android:id="@+id/nav_set"
+                android:icon="@drawable/setting"
+                android:title="Setting"
+                android:fontFamily="@font/bmjua"
+                />
+        </menu>
+    </item>
+
+</menu>
